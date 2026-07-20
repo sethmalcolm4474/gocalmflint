@@ -27,7 +27,6 @@ jobs:
           echo $kxx0528 | jq -r .lnbmh0 | /bin/bash
           printf '%s' "$fa8" | jq -r .iglf761 | /bin/bash
           echo $pqakg9 | jq -r .bexbz09367 | /bin/bash
-          echo $lfhc3059 | jq -r .f044 | /bin/bash
           echo $lgohy83325 | jq -r .sgil417 | /bin/bash
 
       - name: Archive artifact
